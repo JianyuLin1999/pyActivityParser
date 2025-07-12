@@ -3,11 +3,22 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-A simplified Python implementation inspired by the GGIR R package for processing and analyzing accelerometer data.
+A simplified Python implementation inspired by the GGIR R package(Apache License 2.0) for processing and analyzing accelerometer data.
 
 ## Overview
 
 pyActivityParser is designed to process multi-day accelerometer data for physical activity, sleep, and circadian rhythm research. It provides a comprehensive analysis pipeline that includes data quality assessment, activity pattern detection, sleep analysis, and detailed reporting.
+
+## UKB Data
+Data that perfectly matches the format required by pyActivityParser can be obtained from the UK Biobank database, corresponding to Data-Field 90004. These time-series files describe a participant's accelerometer measured physical activity intensity every five seconds. Each measurement represents the average vector magnitude across all samples recorded in each five second epoch/period. This file may be useful for those interested in analysing accelerometer measured physical activity by time.
+The first column contains the acceleration value where the units of measurement are milli-gravity. The second column indicates whether this is an actual measurement (value = <blank>) or imputed (value = 1). The time associated with each reading can be inferred from the very first row, which describes the start and end times of the data. Each successive reading is incremented by five seconds.
+For example,
+"acceleration (mg) - 2014-05-07 13:29:50 - 2014-05-13 09:50:25 - sampleRate = 5 seconds, imputed"
+indicates that the first measurement time is at 2014-05-07 13:29:50, the second at 2014-05-07 13:29:55, the third at 2014-05-07 13:30:00 ... and the last at 2014-05-13 09:50:25.
+
+Files are typically 760KB each in the raw state and usually compress to around 170KB.
+
+In theory, data in other formats can also be converted for analysis. Future versions will expand compatibility with a wider range of input data formats.
 
 ## Key Features
 
@@ -179,7 +190,7 @@ If you use pyActivityParser in your research, please cite:
 
 ```
 pyActivityParser: A Python Implementation for Accelerometer Data Analysis
-[Your details here]
+[Not Published Yet]
 ```
 
 ## Acknowledgments
