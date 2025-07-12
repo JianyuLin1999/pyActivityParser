@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-PyGGIR Example Usage Script
+PyActivityParser Example Usage Script
 
-Demonstrates how to use PyGGIR for accelerometer data analysis.
+Demonstrates how to use PyActivityParser for accelerometer data analysis.
 """
 
 import sys
@@ -11,23 +11,23 @@ import os
 # Add the src directory to Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-from pyggir import PyGGIR
+from pyactivityparser import PyActivityParser
 
 
 def main():
     """Main example function."""
-    print("PyGGIR - Python Accelerometer Data Analysis")
+    print("PyActivityParser - Python Accelerometer Data Analysis")
     print("=" * 50)
     
-    # Initialize PyGGIR
-    analyzer = PyGGIR(
+    # Initialize PyActivityParser
+    analyzer = PyActivityParser(
         data_dir="data",           # Directory containing CSV files
         output_dir="output",       # Directory for results
         sample_rate_seconds=5,     # 5-second sampling rate
         verbose=True               # Enable detailed logging
     )
     
-    print(f"Initialized PyGGIR analyzer")
+    print(f"Initialized pyActivityParser analyzer")
     print(f"Data directory: {analyzer.data_dir}")
     print(f"Output directory: {analyzer.output_dir}")
     print()

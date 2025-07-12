@@ -1,4 +1,4 @@
-# PyGGIR - Python Accelerometer Data Analysis
+# pyActivityParser - Python Accelerometer Data Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
@@ -7,7 +7,7 @@ A simplified Python implementation inspired by the GGIR R package for processing
 
 ## Overview
 
-PyGGIR is designed to process multi-day accelerometer data for physical activity, sleep, and circadian rhythm research. It provides a comprehensive analysis pipeline that includes data quality assessment, activity pattern detection, sleep analysis, and detailed reporting.
+pyActivityParser is designed to process multi-day accelerometer data for physical activity, sleep, and circadian rhythm research. It provides a comprehensive analysis pipeline that includes data quality assessment, activity pattern detection, sleep analysis, and detailed reporting.
 
 ## Key Features
 
@@ -19,7 +19,7 @@ PyGGIR is designed to process multi-day accelerometer data for physical activity
   - Sleep pattern detection and analysis
   - Circadian rhythm assessment
 - **Detailed Reporting**: Generate JSON, CSV, and text reports
-- **Modular Design**: Six-stage processing pipeline inspired by GGIR
+- **Modular Design**: Six-stage processing pipeline inspired by ActivityParser
 - **Easy to Use**: Simple API with minimal configuration required
 
 ## Installation
@@ -28,8 +28,8 @@ PyGGIR is designed to process multi-day accelerometer data for physical activity
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/PyGGIR.git
-cd PyGGIR
+git clone https://github.com/yourusername/pyActivityParser.git
+cd pyActivityParser
 ```
 
 2. Install dependencies:
@@ -47,10 +47,10 @@ pip install -e .
 ### Basic Usage
 
 ```python
-from pyggir import PyGGIR
+from pyactivityparser import PyActivityParser
 
 # Initialize analyzer
-analyzer = PyGGIR(
+analyzer = PyActivityParser(
     data_dir="data",           # Directory with CSV files
     output_dir="output",       # Output directory
     sample_rate_seconds=5,     # Data sampling rate
@@ -76,7 +76,7 @@ python example.py
 
 ## Data Format
 
-PyGGIR supports CSV files with the following format:
+pyActivityParser supports CSV files with the following format:
 
 **Header line:**
 ```
@@ -97,7 +97,7 @@ Where:
 
 ## Analysis Pipeline
 
-PyGGIR follows a six-stage analysis pipeline:
+pyActivityParser follows a six-stage analysis pipeline:
 
 1. **Data Loading**: Parse CSV files and extract metadata
 2. **Core Analysis**: Calculate basic metrics and detect wear periods
@@ -123,7 +123,7 @@ PyGGIR follows a six-stage analysis pipeline:
 
 ## Example Results
 
-For a typical 7-day recording, PyGGIR provides:
+For a typical 7-day recording, pyActivityParser provides:
 
 - **Data Quality Score**: 0-100 scale with grade (A-F)
 - **Wear Time**: Total hours of valid data
@@ -147,10 +147,10 @@ For a typical 7-day recording, PyGGIR provides:
 ## Project Structure
 
 ```
-PyGGIR/
-├── src/pyggir/              # Core Python package
+pyActivityParser/
+├── src/pyactivityparser/    # Core Python package
 │   ├── __init__.py         # Package initialization
-│   ├── main.py             # Main PyGGIR class
+│   ├── main.py             # Main pyActivityParser class
 │   ├── data_loader.py      # Data loading and parsing
 │   ├── core_analysis.py    # Core analysis functions
 │   ├── quality_assessment.py # Data quality evaluation
@@ -175,10 +175,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 
-If you use PyGGIR in your research, please cite:
+If you use pyActivityParser in your research, please cite:
 
 ```
-PyGGIR: A Python Implementation for Accelerometer Data Analysis
+pyActivityParser: A Python Implementation for Accelerometer Data Analysis
 [Your details here]
 ```
 

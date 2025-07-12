@@ -1,7 +1,7 @@
 """
-Core Analysis Module for PyGGIR
+Core Analysis Module for PyActivityParser
 
-Implements core data processing and metric calculations inspired by GGIR.
+Implements core data processing and metric calculations inspired by ActivityParser.
 """
 
 import pandas as pd
@@ -17,7 +17,7 @@ class CoreAnalysis:
     """
     Core analysis functionality for accelerometer data processing.
     
-    Inspired by GGIR Parts 1-2: data processing and basic quality assessment.
+    Inspired by ActivityParser Parts 1-2: data processing and basic quality assessment.
     """
     
     def __init__(self, sample_rate_seconds: int = 5):
@@ -82,13 +82,13 @@ class CoreAnalysis:
         metrics['max_acceleration'] = float(acc_g.max())
         metrics['median_acceleration'] = float(acc_g.median())
         
-        # Calculate additional metrics inspired by GGIR
+        # Calculate additional metrics inspired by ActivityParser
         # Moving averages (5-minute windows)
         window_size = max(1, 300 // self.sample_rate_seconds)  # 5 minutes
         metrics['rolling_mean_5min'] = acc_g.rolling(window=window_size, min_periods=1).mean()
         metrics['rolling_std_5min'] = acc_g.rolling(window=window_size, min_periods=1).std()
         
-        # Activity counts (simplified version of GGIR's approach)
+        # Activity counts (simplified version of ActivityParser's approach)
         # High activity: > 100mg
         # Moderate activity: 40-100mg  
         # Light activity: 5-40mg

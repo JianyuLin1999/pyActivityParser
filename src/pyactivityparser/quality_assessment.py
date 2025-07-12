@@ -1,5 +1,5 @@
 """
-Quality Assessment Module for PyGGIR
+Quality Assessment Module for PyActivityParser
 
 Provides data quality evaluation and validation metrics.
 """
@@ -16,7 +16,7 @@ class QualityAssessment:
     """
     Data quality assessment and validation.
     
-    Inspired by GGIR's quality check procedures.
+    Inspired by ActivityParser's quality check procedures.
     """
     
     def __init__(self):

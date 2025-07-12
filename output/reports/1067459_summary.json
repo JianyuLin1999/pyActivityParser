@@ -1,8 +1,8 @@
 {
   "report_info": {
     "participant_id": "1067459",
-    "generated_at": "2025-07-12 16:32:20.281692",
-    "pyggir_version": "0.1.0",
+    "generated_at": "2025-07-12 20:17:50.118247",
+    "pyactivityparser_version": "0.1.0",
     "analysis_type": "comprehensive_accelerometer_analysis"
   },
   "data_summary": {
@@ -23,7 +23,7 @@
   },
   "quality_assessment": {
     "participant_id": "unknown",
-    "assessment_timestamp": "2025-07-12 16:32:19.822988",
+    "assessment_timestamp": "2025-07-12 20:17:49.735811",
     "data_overview": {
       "recording_duration_days": 6,
       "total_samples": 120960,

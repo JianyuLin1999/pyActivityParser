@@ -1,7 +1,7 @@
 ================================================================================
-PyGGIR Accelerometer Data Analysis Report
+PyActivityParser Accelerometer Data Analysis Report
 Participant ID: 3396599
-Generated: 2025-07-12 16:32:21
+Generated: 2025-07-12 20:17:50
 ================================================================================
 
 DATA OVERVIEW

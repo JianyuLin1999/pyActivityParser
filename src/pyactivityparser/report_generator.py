@@ -1,5 +1,5 @@
 """
-Report Generator Module for PyGGIR
+Report Generator Module for PyActivityParser
 
 Generates comprehensive analysis reports in various formats.
 """
@@ -19,7 +19,7 @@ class ReportGenerator:
     """
     Generate comprehensive analysis reports.
     
-    Inspired by GGIR's reporting functionality across all parts.
+    Inspired by ActivityParser's reporting functionality across all parts.
     """
     
     def __init__(self, output_dir: str = "output"):
@@ -84,7 +84,7 @@ class ReportGenerator:
             'report_info': {
                 'participant_id': participant_id,
                 'generated_at': timestamp,
-                'pyggir_version': '0.1.0',
+                'pyactivityparser_version': '0.1.0',
                 'analysis_type': 'comprehensive_accelerometer_analysis'
             },
             'data_summary': analysis_results.get('data_summary', {}),
@@ -169,7 +169,7 @@ class ReportGenerator:
         
         report_lines = [
             "="*80,
-            f"PyGGIR Accelerometer Data Analysis Report",
+            f"PyActivityParser Accelerometer Data Analysis Report",
             f"Participant ID: {participant_id}",
             f"Generated: {timestamp.strftime('%Y-%m-%d %H:%M:%S')}",
             "="*80,

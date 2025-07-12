@@ -1,14 +1,14 @@
-# PyGGIR: A Python Implementation for Comprehensive Accelerometer Data Analysis
+# pyActivityParser: A Python Implementation for Comprehensive Accelerometer Data Analysis
 
 ## Abstract
 
 **Background**: Accelerometer data analysis is crucial for physical activity and sleep research, with the R package GGIR being the gold standard. However, the Python ecosystem lacks a comprehensive tool for accelerometer data processing, limiting accessibility for Python-focused researchers and integration with machine learning workflows.
 
-**Methods**: We developed PyGGIR, a Python implementation inspired by GGIR's analysis pipeline. PyGGIR provides a six-stage processing framework including data loading, quality assessment, wear-time detection, activity classification, sleep analysis, and comprehensive reporting. The package supports CSV data formats and implements validated algorithms for physical activity and sleep pattern detection.
+**Methods**: We developed pyActivityParser, a Python implementation inspired by GGIR's analysis pipeline. pyActivityParser provides a six-stage processing framework including data loading, quality assessment, wear-time detection, activity classification, sleep analysis, and comprehensive reporting. The package supports CSV data formats and implements validated algorithms for physical activity and sleep pattern detection.
 
-**Results**: PyGGIR successfully processes multi-day accelerometer data, providing comparable results to existing tools. Validation using sample datasets demonstrated accurate detection of wear periods (95.5% compliance), activity classification (MVPA detection), and sleep analysis (99% efficiency). The modular architecture enables easy integration with Python-based research workflows.
+**Results**: pyActivityParser successfully processes multi-day accelerometer data, providing comparable results to existing tools. Validation using sample datasets demonstrated accurate detection of wear periods (95.5% compliance), activity classification (MVPA detection), and sleep analysis (99% efficiency). The modular architecture enables easy integration with Python-based research workflows.
 
-**Conclusions**: PyGGIR fills a critical gap in the Python ecosystem for accelerometer data analysis. The open-source implementation promotes reproducible research and enables broader adoption of standardized accelerometer analysis methods in the scientific community.
+**Conclusions**: pyActivityParser fills a critical gap in the Python ecosystem for accelerometer data analysis. The open-source implementation promotes reproducible research and enables broader adoption of standardized accelerometer analysis methods in the scientific community.
 
 **Keywords**: accelerometer, physical activity, sleep analysis, Python, open source, wearable devices
 
@@ -25,7 +25,7 @@ The GGIR R package has established itself as the gold standard for accelerometer
 - Cross-platform deployment in clinical settings
 
 ### 1.3 Objectives
-This study presents PyGGIR, a Python implementation that:
+This study presents pyActivityParser, a Python implementation that:
 1. Replicates core GGIR functionality for accelerometer data analysis
 2. Provides a modular, extensible framework for method development
 3. Enables seamless integration with Python-based research workflows
@@ -34,7 +34,7 @@ This study presents PyGGIR, a Python implementation that:
 ## 2. Methods
 
 ### 2.1 Software Architecture
-PyGGIR implements a six-stage processing pipeline modeled after GGIR:
+pyActivityParser implements a six-stage processing pipeline modeled after GGIR:
 
 **Stage 1 - Data Loading**: 
 - Parses CSV accelerometer data with metadata extraction
@@ -98,7 +98,7 @@ Sleep periods are identified through:
 3. Duration constraints (3-12 hours)
 
 ### 2.3 Validation Dataset
-We validated PyGGIR using two 7-day accelerometer recordings:
+We validated pyActivityParser using two 7-day accelerometer recordings:
 - Participant 1067459: 120,960 samples (5-second epochs)
 - Participant 3396599: 120,960 samples (5-second epochs)
 - Data format: CSV with acceleration magnitude and imputation flags
@@ -139,7 +139,7 @@ We validated PyGGIR using two 7-day accelerometer recordings:
 - **Accuracy**: Consistent results across different data patterns
 
 ### 3.3 Software Validation
-PyGGIR successfully identified:
+pyActivityParser successfully identified:
 - Wear periods with high sensitivity (>95%)
 - Activity bouts following WHO guidelines
 - Sleep periods matching expected circadian patterns
@@ -148,7 +148,7 @@ PyGGIR successfully identified:
 ## 4. Discussion
 
 ### 4.1 Key Contributions
-1. **Ecosystem Gap**: PyGGIR addresses the lack of comprehensive accelerometer analysis tools in Python
+1. **Ecosystem Gap**: pyActivityParser addresses the lack of comprehensive accelerometer analysis tools in Python
 2. **Standardization**: Implements established algorithms ensuring comparability with GGIR results
 3. **Accessibility**: Provides user-friendly API for researchers without extensive programming experience
 4. **Extensibility**: Modular design facilitates custom algorithm development
@@ -172,9 +172,9 @@ PyGGIR successfully identified:
 
 ## 5. Conclusions
 
-PyGGIR provides a robust, open-source solution for accelerometer data analysis in Python. The implementation successfully replicates core GGIR functionality while offering advantages in terms of integration with Python-based research workflows. The tool demonstrates comparable accuracy to established methods and provides comprehensive analysis capabilities suitable for research applications.
+pyActivityParser provides a robust, open-source solution for accelerometer data analysis in Python. The implementation successfully replicates core GGIR functionality while offering advantages in terms of integration with Python-based research workflows. The tool demonstrates comparable accuracy to established methods and provides comprehensive analysis capabilities suitable for research applications.
 
-The availability of PyGGIR in the Python ecosystem will facilitate broader adoption of standardized accelerometer analysis methods and enable new research directions combining traditional epidemiological approaches with modern machine learning techniques.
+The availability of pyActivityParser in the Python ecosystem will facilitate broader adoption of standardized accelerometer analysis methods and enable new research directions combining traditional epidemiological approaches with modern machine learning techniques.
 
 ## Acknowledgments
 
@@ -186,7 +186,7 @@ We acknowledge the GGIR development team for their foundational work in accelero
 
 ## Data Availability
 
-PyGGIR source code and documentation are available at: https://github.com/[username]/PyGGIR
+pyActivityParser source code and documentation are available at: https://github.com/[username]/pyActivityParser
 Sample datasets and analysis scripts are included in the repository.
 
 ## Author Contributions

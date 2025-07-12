@@ -1,4 +1,4 @@
-# PyGGIR GitHub 上传指南
+# PyActivityParser GitHub 上传指南
 
 ## 步骤一：创建 GitHub 仓库
 
@@ -9,8 +9,8 @@
 ### 1.2 创建新仓库
 1. 点击右上角的 "+" 号，选择 "New repository"
 2. 填写仓库信息：
-   - **Repository name**: `PyGGIR` 
-   - **Description**: `A Python implementation for accelerometer data analysis inspired by GGIR`
+   - **Repository name**: `PyActivityParser` 
+   - **Description**: `A Python implementation for accelerometer data analysis inspired by ActivityParser`
    - **Visibility**: 选择 Public（公开）或 Private（私有）
    - **Initialize**: 不要勾选任何选项（因为本地已有文件）
 3. 点击 "Create repository"
@@ -18,9 +18,9 @@
 ## 步骤二：本地 Git 初始化
 
 ### 2.1 打开终端
-在 PyGGIR 项目目录中打开终端：
+在 PyActivityParser 项目目录中打开终端：
 ```bash
-cd /Users/jianyulin/Desktop/GGIR-main/PyGGIR
+cd /Users/jianyulin/Desktop/ActivityParser-main/PyActivityParser
 ```
 
 ### 2.2 初始化 Git 仓库
@@ -35,9 +35,9 @@ git add .
 git status
 
 # 创建初始提交
-git commit -m "Initial commit: PyGGIR accelerometer data analysis tool
+git commit -m "Initial commit: PyActivityParser accelerometer data analysis tool
 
-- Implemented six-stage analysis pipeline inspired by GGIR
+- Implemented six-stage analysis pipeline inspired by ActivityParser
 - Added CSV data loader with metadata parsing
 - Implemented core analysis (wear detection, activity classification)
 - Added quality assessment and activity pattern analysis
@@ -50,7 +50,7 @@ git commit -m "Initial commit: PyGGIR accelerometer data analysis tool
 ### 3.1 添加远程仓库
 ```bash
 # 添加远程仓库（替换 yourusername 为你的 GitHub 用户名）
-git remote add origin https://github.com/yourusername/PyGGIR.git
+git remote add origin https://github.com/yourusername/PyActivityParser.git
 
 # 验证远程仓库设置
 git remote -v
@@ -75,7 +75,7 @@ git push -u origin main
 
 ### 4.2 预期的文件结构
 ```
-PyGGIR/
+PyActivityParser/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -84,7 +84,7 @@ PyGGIR/
 ├── setup.py
 ├── example.py
 ├── src/
-│   └── pyggir/
+│   └── pyactivityparser/
 │       ├── __init__.py
 │       ├── main.py
 │       ├── data_loader.py
@@ -172,7 +172,7 @@ jobs:
 # 检查远程仓库 URL
 git remote -v
 # 重新设置正确的 URL
-git remote set-url origin https://github.com/yourusername/PyGGIR.git
+git remote set-url origin https://github.com/yourusername/PyActivityParser.git
 ```
 
 **问题 2**: `Authentication failed`
@@ -213,4 +213,4 @@ echo "large_file.csv" >> .gitignore
 4. **发布包**: 考虑发布到 PyPI
 5. **社区互动**: 回应 Issues 和 Pull Requests
 
-完成以上步骤后，你的 PyGGIR 项目就成功上传到 GitHub 了！
+完成以上步骤后，你的 PyActivityParser 项目就成功上传到 GitHub 了！

@@ -1,5 +1,5 @@
 """
-Data Loader Module for PyGGIR
+Data Loader Module for PyActivityParser
 
 Handles loading and parsing of accelerometer data from CSV files.
 """

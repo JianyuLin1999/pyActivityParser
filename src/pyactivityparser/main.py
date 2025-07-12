@@ -1,7 +1,7 @@
 """
-Main PyGGIR Class
+Main pyActivityParser Class
 
-The main interface for PyGGIR accelerometer data analysis.
+The main interface for pyActivityParser accelerometer data analysis.
 """
 
 import os
@@ -24,9 +24,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-class PyGGIR:
+class PyActivityParser:
     """
-    Main PyGGIR accelerometer data analysis class.
+    Main pyActivityParser accelerometer data analysis class.
     
     Provides a simplified Python implementation inspired by the GGIR R package
     for processing and analyzing accelerometer data from CSV files.
@@ -35,7 +35,7 @@ class PyGGIR:
     def __init__(self, data_dir: str = "data", output_dir: str = "output", 
                  sample_rate_seconds: int = 5, verbose: bool = True):
         """
-        Initialize PyGGIR analyzer.
+        Initialize pyActivityParser analyzer.
         
         Args:
             data_dir (str): Directory containing input CSV files
@@ -60,7 +60,7 @@ class PyGGIR:
         self.sleep_analysis = SleepAnalysis(sample_rate_seconds)
         self.report_generator = ReportGenerator(output_dir)
         
-        logger.info(f"PyGGIR initialized - Data: {data_dir}, Output: {output_dir}")
+        logger.info(f"pyActivityParser initialized - Data: {data_dir}, Output: {output_dir}")
     
     def process_file(self, filename: str) -> Dict:
         """
@@ -298,7 +298,7 @@ class PyGGIR:
             return
         
         print("\n" + "="*60)
-        print("PyGGIR Analysis Summary")
+        print("PyActivityParser Analysis Summary")
         print("="*60)
         print(f"Total participants: {summary['total_participants']}")
         print(f"Successful analyses: {summary['successful_analyses']}")

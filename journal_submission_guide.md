@@ -1,4 +1,4 @@
-# PyGGIR 学术论文发表指南
+# PyActivityParser 学术论文发表指南
 
 ## 🎯 推荐期刊列表
 
@@ -61,7 +61,7 @@
 - [ ] 利益冲突声明
 
 ### 增强材料
-- [ ] 与GGIR的详细比较
+- [ ] 与ActivityParser的详细比较
 - [ ] 大规模数据集验证
 - [ ] 性能基准测试
 - [ ] 用户案例研究
@@ -80,7 +80,7 @@ validation_datasets = {
 }
 ```
 
-### 2. 与GGIR详细比较
+### 2. 与ActivityParser详细比较
 - 相同数据集的并行分析
 - 关键指标的一致性评估
 - 处理速度和内存使用比较
@@ -102,7 +102,7 @@ validation_datasets = {
 1. 加速度计研究重要性
 2. 现有工具局限性
 3. Python生态系统需求
-4. PyGGIR的创新点
+4. PyActivityParser的创新点
 
 ### Methods (1500-2000字)
 1. 软件架构设计
@@ -113,7 +113,7 @@ validation_datasets = {
 ### Results (1000-1500字)
 1. 验证数据集结果
 2. 性能基准测试
-3. 与GGIR比较结果
+3. 与ActivityParser比较结果
 4. 用户使用案例
 
 ### Discussion (800-1200字)
@@ -129,7 +129,7 @@ validation_datasets = {
 - 专门为开源软件设计
 - 审稿周期短
 - 学术认可度高
-- 符合PyGGIR的定位
+- 符合PyActivityParser的定位
 
 **投稿要求**:
 - 软件必须开源且功能完整

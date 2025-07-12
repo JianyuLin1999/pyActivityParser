@@ -1,5 +1,5 @@
 """
-Sleep Analysis Module for PyGGIR
+Sleep Analysis Module for PyActivityParser
 
 Provides sleep pattern detection and analysis.
 """
@@ -17,7 +17,7 @@ class SleepAnalysis:
     """
     Sleep pattern detection and analysis.
     
-    Inspired by GGIR Parts 3-4: rest period detection and sleep analysis.
+    Inspired by ActivityParser Parts 3-4: rest period detection and sleep analysis.
     """
     
     def __init__(self, sample_rate_seconds: int = 5):

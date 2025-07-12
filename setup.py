@@ -1,5 +1,5 @@
 """
-Setup script for PyGGIR
+Setup script for pyActivityParser
 """
 
 from setuptools import setup, find_packages
@@ -11,14 +11,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="pyggir",
+    name="pyactivityparser",
     version="0.1.0",
-    author="PyGGIR Development Team",
-    author_email="pyggir@example.com",
+    author="pyActivityParser Development Team",
+    author_email="pyactivityparser@example.com",
     description="A simplified Python implementation inspired by the GGIR R package for accelerometer data analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pyggir/pyggir",
+    url="https://github.com/pyactivityparser/pyactivityparser",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
@@ -46,7 +46,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "pyggir=pyggir.main:main",
+            "pyactivityparser=pyactivityparser.main:main",
         ],
     },
 )

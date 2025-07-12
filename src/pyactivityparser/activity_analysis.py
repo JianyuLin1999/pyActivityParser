@@ -1,5 +1,5 @@
 """
-Activity Analysis Module for PyGGIR
+Activity Analysis Module for PyActivityParser
 
 Provides detailed physical activity pattern analysis.
 """
@@ -16,7 +16,7 @@ class ActivityAnalysis:
     """
     Physical activity pattern analysis.
     
-    Inspired by GGIR Part 5: activity bout detection and analysis.
+    Inspired by ActivityParser Part 5: activity bout detection and analysis.
     """
     
     def __init__(self, sample_rate_seconds: int = 5):
