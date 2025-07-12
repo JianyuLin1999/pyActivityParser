@@ -1,0 +1,1672 @@
+{
+  "report_info": {
+    "participant_id": "3396599",
+    "generated_at": "2025-07-12 16:32:21.124913",
+    "pyggir_version": "0.1.0",
+    "analysis_type": "comprehensive_accelerometer_analysis"
+  },
+  "data_summary": {
+    "participant_id": "3396599",
+    "start_time": "2015-11-19 10:00:00",
+    "end_time": "2015-11-26 09:59:55",
+    "sample_rate_seconds": 5,
+    "total_samples": 120960,
+    "imputed_samples": "2303",
+    "data_completeness": 1.0,
+    "acceleration_stats": {
+      "mean": 39.67909556878308,
+      "std": 82.30934206442855,
+      "min": 0.0,
+      "max": 2538.4,
+      "median": 5.1
+    }
+  },
+  "quality_assessment": {
+    "participant_id": "unknown",
+    "assessment_timestamp": "2025-07-12 16:32:20.485448",
+    "data_overview": {
+      "recording_duration_days": 6,
+      "total_samples": 120960,
+      "expected_samples": 120959,
+      "sample_rate_seconds": 5,
+      "data_completeness": 1.0,
+      "file_size_mb": 0.9228515625
+    },
+    "wear_compliance": {
+      "total_wear_time_hours": 159.47222222222223,
+      "wear_percentage": 94.9239417989418,
+      "valid_days_count": 7,
+      "total_days": 8,
+      "meets_minimum_wear": true,
+      "average_daily_wear_hours": 19.93402777777778,
+      "non_wear_periods": [
+        {
+          "start_time": "2015-11-19 10:00:00",
+          "end_time": "2015-11-19 10:00:05",
+          "duration_minutes": 0.16666666666666666
+        },
+        {
+          "start_time": "2015-11-19 23:39:40",
+          "end_time": "2015-11-19 23:55:35",
+          "duration_minutes": 16.0
+        },
+        {
+          "start_time": "2015-11-20 00:51:20",
+          "end_time": "2015-11-20 01:09:50",
+          "duration_minutes": 18.583333333333332
+        },
+        {
+          "start_time": "2015-11-20 01:58:45",
+          "end_time": "2015-11-20 01:58:50",
+          "duration_minutes": 0.16666666666666666
+        },
+        {
+          "start_time": "2015-11-20 02:41:55",
+          "end_time": "2015-11-20 03:01:40",
+          "duration_minutes": 19.833333333333332
+        },
+        {
+          "start_time": "2015-11-20 03:57:20",
+          "end_time": "2015-11-20 04:13:05",
+          "duration_minutes": 15.833333333333334
+        },
+        {
+          "start_time": "2015-11-20 05:13:05",
+          "end_time": "2015-11-20 05:18:00",
+          "duration_minutes": 5.0
+        },
+        {
+          "start_time": "2015-11-20 23:31:40",
+          "end_time": "2015-11-21 00:00:00",
+          "duration_minutes": 28.416666666666668
+        },
+        {
+          "start_time": "2015-11-21 01:02:20",
+          "end_time": "2015-11-21 01:26:05",
+          "duration_minutes": 23.833333333333332
+        },
+        {
+          "start_time": "2015-11-21 02:05:55",
+          "end_time": "2015-11-21 02:13:45",
+          "duration_minutes": 7.916666666666667
+        },
+        {
+          "start_time": "2015-11-21 05:42:55",
+          "end_time": "2015-11-21 05:47:20",
+          "duration_minutes": 4.5
+        },
+        {
+          "start_time": "2015-11-21 07:03:20",
+          "end_time": "2015-11-21 07:04:15",
+          "duration_minutes": 1.0
+        },
+        {
+          "start_time": "2015-11-22 00:32:20",
+          "end_time": "2015-11-22 00:50:50",
+          "duration_minutes": 18.583333333333332
+        },
+        {
+          "start_time": "2015-11-22 02:18:20",
+          "end_time": "2015-11-22 02:24:05",
+          "duration_minutes": 5.833333333333333
+        },
+        {
+          "start_time": "2015-11-22 05:08:55",
+          "end_time": "2015-11-22 05:22:55",
+          "duration_minutes": 14.083333333333334
+        },
+        {
+          "start_time": "2015-11-22 06:32:15",
+          "end_time": "2015-11-22 06:55:10",
+          "duration_minutes": 23.0
+        },
+        {
+          "start_time": "2015-11-22 07:30:15",
+          "end_time": "2015-11-22 07:50:00",
+          "duration_minutes": 19.833333333333332
+        },
+        {
+          "start_time": "2015-11-22 23:31:05",
+          "end_time": "2015-11-22 23:38:45",
+          "duration_minutes": 7.75
+        },
+        {
+          "start_time": "2015-11-23 00:11:15",
+          "end_time": "2015-11-23 00:15:30",
+          "duration_minutes": 4.333333333333333
+        },
+        {
+          "start_time": "2015-11-23 00:55:15",
+          "end_time": "2015-11-23 01:01:55",
+          "duration_minutes": 6.75
+        },
+        {
+          "start_time": "2015-11-23 01:11:30",
+          "end_time": "2015-11-23 01:20:25",
+          "duration_minutes": 9.0
+        },
+        {
+          "start_time": "2015-11-23 01:26:40",
+          "end_time": "2015-11-23 01:31:35",
+          "duration_minutes": 5.0
+        },
+        {
+          "start_time": "2015-11-23 02:26:05",
+          "end_time": "2015-11-23 02:39:35",
+          "duration_minutes": 13.583333333333334
+        },
+        {
+          "start_time": "2015-11-23 03:27:55",
+          "end_time": "2015-11-23 03:47:15",
+          "duration_minutes": 19.416666666666668
+        },
+        {
+          "start_time": "2015-11-23 23:51:05",
+          "end_time": "2015-11-24 00:12:40",
+          "duration_minutes": 21.666666666666668
+        },
+        {
+          "start_time": "2015-11-24 01:26:25",
+          "end_time": "2015-11-24 01:43:25",
+          "duration_minutes": 17.083333333333332
+        },
+        {
+          "start_time": "2015-11-24 02:55:10",
+          "end_time": "2015-11-24 03:20:15",
+          "duration_minutes": 25.166666666666668
+        },
+        {
+          "start_time": "2015-11-24 03:58:45",
+          "end_time": "2015-11-24 04:24:35",
+          "duration_minutes": 25.916666666666668
+        },
+        {
+          "start_time": "2015-11-24 05:41:45",
+          "end_time": "2015-11-24 05:47:05",
+          "duration_minutes": 5.416666666666667
+        },
+        {
+          "start_time": "2015-11-24 06:18:40",
+          "end_time": "2015-11-24 06:21:40",
+          "duration_minutes": 3.0833333333333335
+        },
+        {
+          "start_time": "2015-11-25 00:05:00",
+          "end_time": "2015-11-25 00:09:35",
+          "duration_minutes": 4.666666666666667
+        },
+        {
+          "start_time": "2015-11-25 00:39:40",
+          "end_time": "2015-11-25 00:45:10",
+          "duration_minutes": 5.583333333333333
+        },
+        {
+          "start_time": "2015-11-25 01:22:40",
+          "end_time": "2015-11-25 01:30:45",
+          "duration_minutes": 8.166666666666666
+        },
+        {
+          "start_time": "2015-11-25 02:51:25",
+          "end_time": "2015-11-25 03:06:25",
+          "duration_minutes": 15.083333333333334
+        },
+        {
+          "start_time": "2015-11-25 03:40:20",
+          "end_time": "2015-11-25 04:08:40",
+          "duration_minutes": 28.416666666666668
+        },
+        {
+          "start_time": "2015-11-25 06:12:20",
+          "end_time": "2015-11-25 06:21:50",
+          "duration_minutes": 9.583333333333334
+        },
+        {
+          "start_time": "2015-11-25 19:37:35",
+          "end_time": "2015-11-25 19:37:40",
+          "duration_minutes": 0.16666666666666666
+        },
+        {
+          "start_time": "2015-11-25 23:30:40",
+          "end_time": "2015-11-25 23:53:00",
+          "duration_minutes": 22.416666666666668
+        },
+        {
+          "start_time": "2015-11-26 00:36:25",
+          "end_time": "2015-11-26 00:56:00",
+          "duration_minutes": 19.666666666666668
+        },
+        {
+          "start_time": "2015-11-26 01:51:15",
+          "end_time": "2015-11-26 01:56:50",
+          "duration_minutes": 5.666666666666667
+        },
+        {
+          "start_time": "2015-11-26 03:13:40",
+          "end_time": "2015-11-26 03:14:35",
+          "duration_minutes": 1.0
+        },
+        {
+          "start_time": "2015-11-26 03:44:55",
+          "end_time": "2015-11-26 03:48:55",
+          "duration_minutes": 4.083333333333333
+        },
+        {
+          "start_time": "2015-11-26 05:41:40",
+          "end_time": "2015-11-26 05:45:35",
+          "duration_minutes": 4.0
+        }
+      ],
+      "long_non_wear_periods_count": 0
+    },
+    "data_integrity": {
+      "missing_values_count": "0",
+      "missing_values_percentage": 0.0,
+      "imputed_values_count": "2303",
+      "imputed_values_percentage": 1.9039351851851853,
+      "zero_values_count": "629",
+      "zero_values_percentage": 0.5200066137566138,
+      "negative_values_count": "0",
+      "outliers": {
+        "iqr_method": {
+          "count": 12054,
+          "percentage": 9.965277777777779,
+          "lower_bound": -69.1,
+          "upper_bound": 119.69999999999999
+        },
+        "zscore_method": {
+          "count": 1705,
+          "percentage": 1.4095568783068784
+        }
+      },
+      "data_range": {
+        "min": 0.0,
+        "max": 2538.4,
+        "mean": 39.67909556878308,
+        "std": 82.30934206442855
+      },
+      "unrealistic_values": {
+        "extremely_high": "5",
+        "extremely_low": "0"
+      }
+    },
+    "activity_patterns": {
+      "sedentary_percentage": 46.75143703187598,
+      "light_activity_percentage": 23.649190036578993,
+      "moderate_activity_percentage": 16.066887301863787,
+      "high_activity_percentage": 13.53248562968124,
+      "mvpa_minutes_total": 2832.1666666666665,
+      "estimated_daily_steps": 2987.253788538582,
+      "daily_variability": {
+        "mean_acceleration_std": 12.257151802739541,
+        "mean_acceleration_cv": 0.2970819322127345
+      },
+      "flags": {
+        "extremely_sedentary": false,
+        "very_low_activity": false,
+        "unrealistic_high_activity": false
+      }
+    },
+    "recommendations": [
+      "High outlier rate (10.0%). Consider data cleaning or investigate device issues."
+    ],
+    "overall_assessment": {
+      "individual_scores": {
+        "data_completeness": 100,
+        "wear_compliance": 97.4619708994709,
+        "data_integrity": 78.09606481481481,
+        "activity_patterns": 100
+      },
+      "overall_score": 93.6,
+      "quality_grade": "A",
+      "data_usable": "True"
+    }
+  },
+  "core_analysis": {
+    "basic_metrics": {
+      "mean_acceleration": 0.039679095568783074,
+      "std_acceleration": 0.08230934206441619,
+      "min_acceleration": 0.0,
+      "max_acceleration": 2.5384,
+      "median_acceleration": 0.0050999999999999995,
+      "rolling_mean_5min": "0         0.143200\n1         0.143950\n2         0.099967\n3         0.083675\n4         0.075960\n            ...   \n120955    0.044773\n120956    0.044420\n120957    0.044067\n120958    0.043713\n120959    0.043360\nName: acceleration, Length: 120960, dtype: float64",
+      "rolling_std_5min": "0              NaN\n1         0.001061\n2         0.076185\n3         0.070222\n4         0.063213\n            ...   \n120955    0.018832\n120956    0.018536\n120957    0.018228\n120958    0.017907\n120959    0.017574\nName: acceleration, Length: 120960, dtype: float64",
+      "high_activity_count": "15539",
+      "moderate_activity_count": "18448",
+      "light_activity_count": "27284",
+      "sedentary_count": "59689"
+    },
+    "wear_detection": {
+      "total_wear_time_hours": 159.47222222222223,
+      "total_non_wear_time_hours": 8.527777777777779,
+      "wear_percentage": 94.9239417989418,
+      "non_wear_periods": [
+        {
+          "start_time": "2015-11-19 10:00:00",
+          "end_time": "2015-11-19 10:00:05",
+          "duration_minutes": 0.16666666666666666
+        },
+        {
+          "start_time": "2015-11-19 23:39:40",
+          "end_time": "2015-11-19 23:55:35",
+          "duration_minutes": 16.0
+        },
+        {
+          "start_time": "2015-11-20 00:51:20",
+          "end_time": "2015-11-20 01:09:50",
+          "duration_minutes": 18.583333333333332
+        },
+        {
+          "start_time": "2015-11-20 01:58:45",
+          "end_time": "2015-11-20 01:58:50",
+          "duration_minutes": 0.16666666666666666
+        },
+        {
+          "start_time": "2015-11-20 02:41:55",
+          "end_time": "2015-11-20 03:01:40",
+          "duration_minutes": 19.833333333333332
+        },
+        {
+          "start_time": "2015-11-20 03:57:20",
+          "end_time": "2015-11-20 04:13:05",
+          "duration_minutes": 15.833333333333334
+        },
+        {
+          "start_time": "2015-11-20 05:13:05",
+          "end_time": "2015-11-20 05:18:00",
+          "duration_minutes": 5.0
+        },
+        {
+          "start_time": "2015-11-20 23:31:40",
+          "end_time": "2015-11-21 00:00:00",
+          "duration_minutes": 28.416666666666668
+        },
+        {
+          "start_time": "2015-11-21 01:02:20",
+          "end_time": "2015-11-21 01:26:05",
+          "duration_minutes": 23.833333333333332
+        },
+        {
+          "start_time": "2015-11-21 02:05:55",
+          "end_time": "2015-11-21 02:13:45",
+          "duration_minutes": 7.916666666666667
+        },
+        {
+          "start_time": "2015-11-21 05:42:55",
+          "end_time": "2015-11-21 05:47:20",
+          "duration_minutes": 4.5
+        },
+        {
+          "start_time": "2015-11-21 07:03:20",
+          "end_time": "2015-11-21 07:04:15",
+          "duration_minutes": 1.0
+        },
+        {
+          "start_time": "2015-11-22 00:32:20",
+          "end_time": "2015-11-22 00:50:50",
+          "duration_minutes": 18.583333333333332
+        },
+        {
+          "start_time": "2015-11-22 02:18:20",
+          "end_time": "2015-11-22 02:24:05",
+          "duration_minutes": 5.833333333333333
+        },
+        {
+          "start_time": "2015-11-22 05:08:55",
+          "end_time": "2015-11-22 05:22:55",
+          "duration_minutes": 14.083333333333334
+        },
+        {
+          "start_time": "2015-11-22 06:32:15",
+          "end_time": "2015-11-22 06:55:10",
+          "duration_minutes": 23.0
+        },
+        {
+          "start_time": "2015-11-22 07:30:15",
+          "end_time": "2015-11-22 07:50:00",
+          "duration_minutes": 19.833333333333332
+        },
+        {
+          "start_time": "2015-11-22 23:31:05",
+          "end_time": "2015-11-22 23:38:45",
+          "duration_minutes": 7.75
+        },
+        {
+          "start_time": "2015-11-23 00:11:15",
+          "end_time": "2015-11-23 00:15:30",
+          "duration_minutes": 4.333333333333333
+        },
+        {
+          "start_time": "2015-11-23 00:55:15",
+          "end_time": "2015-11-23 01:01:55",
+          "duration_minutes": 6.75
+        },
+        {
+          "start_time": "2015-11-23 01:11:30",
+          "end_time": "2015-11-23 01:20:25",
+          "duration_minutes": 9.0
+        },
+        {
+          "start_time": "2015-11-23 01:26:40",
+          "end_time": "2015-11-23 01:31:35",
+          "duration_minutes": 5.0
+        },
+        {
+          "start_time": "2015-11-23 02:26:05",
+          "end_time": "2015-11-23 02:39:35",
+          "duration_minutes": 13.583333333333334
+        },
+        {
+          "start_time": "2015-11-23 03:27:55",
+          "end_time": "2015-11-23 03:47:15",
+          "duration_minutes": 19.416666666666668
+        },
+        {
+          "start_time": "2015-11-23 23:51:05",
+          "end_time": "2015-11-24 00:12:40",
+          "duration_minutes": 21.666666666666668
+        },
+        {
+          "start_time": "2015-11-24 01:26:25",
+          "end_time": "2015-11-24 01:43:25",
+          "duration_minutes": 17.083333333333332
+        },
+        {
+          "start_time": "2015-11-24 02:55:10",
+          "end_time": "2015-11-24 03:20:15",
+          "duration_minutes": 25.166666666666668
+        },
+        {
+          "start_time": "2015-11-24 03:58:45",
+          "end_time": "2015-11-24 04:24:35",
+          "duration_minutes": 25.916666666666668
+        },
+        {
+          "start_time": "2015-11-24 05:41:45",
+          "end_time": "2015-11-24 05:47:05",
+          "duration_minutes": 5.416666666666667
+        },
+        {
+          "start_time": "2015-11-24 06:18:40",
+          "end_time": "2015-11-24 06:21:40",
+          "duration_minutes": 3.0833333333333335
+        },
+        {
+          "start_time": "2015-11-25 00:05:00",
+          "end_time": "2015-11-25 00:09:35",
+          "duration_minutes": 4.666666666666667
+        },
+        {
+          "start_time": "2015-11-25 00:39:40",
+          "end_time": "2015-11-25 00:45:10",
+          "duration_minutes": 5.583333333333333
+        },
+        {
+          "start_time": "2015-11-25 01:22:40",
+          "end_time": "2015-11-25 01:30:45",
+          "duration_minutes": 8.166666666666666
+        },
+        {
+          "start_time": "2015-11-25 02:51:25",
+          "end_time": "2015-11-25 03:06:25",
+          "duration_minutes": 15.083333333333334
+        },
+        {
+          "start_time": "2015-11-25 03:40:20",
+          "end_time": "2015-11-25 04:08:40",
+          "duration_minutes": 28.416666666666668
+        },
+        {
+          "start_time": "2015-11-25 06:12:20",
+          "end_time": "2015-11-25 06:21:50",
+          "duration_minutes": 9.583333333333334
+        },
+        {
+          "start_time": "2015-11-25 19:37:35",
+          "end_time": "2015-11-25 19:37:40",
+          "duration_minutes": 0.16666666666666666
+        },
+        {
+          "start_time": "2015-11-25 23:30:40",
+          "end_time": "2015-11-25 23:53:00",
+          "duration_minutes": 22.416666666666668
+        },
+        {
+          "start_time": "2015-11-26 00:36:25",
+          "end_time": "2015-11-26 00:56:00",
+          "duration_minutes": 19.666666666666668
+        },
+        {
+          "start_time": "2015-11-26 01:51:15",
+          "end_time": "2015-11-26 01:56:50",
+          "duration_minutes": 5.666666666666667
+        },
+        {
+          "start_time": "2015-11-26 03:13:40",
+          "end_time": "2015-11-26 03:14:35",
+          "duration_minutes": 1.0
+        },
+        {
+          "start_time": "2015-11-26 03:44:55",
+          "end_time": "2015-11-26 03:48:55",
+          "duration_minutes": 4.083333333333333
+        },
+        {
+          "start_time": "2015-11-26 05:41:40",
+          "end_time": "2015-11-26 05:45:35",
+          "duration_minutes": 4.0
+        }
+      ]
+    },
+    "activity_levels": {
+      "total_wear_time_minutes": 9568.333333333334,
+      "high_activity_percentage": 13.53248562968124,
+      "moderate_activity_percentage": 16.066887301863787,
+      "light_activity_percentage": 23.649190036578993,
+      "sedentary_percentage": 46.75143703187598,
+      "mvpa_minutes": 2832.1666666666665,
+      "average_daily_steps_estimate": 2987.253788538582
+    },
+    "quality_metrics": {
+      "total_recording_hours": 168.0,
+      "data_completeness_percentage": 100.0,
+      "imputation_percentage": 1.9039351851851853,
+      "wear_compliance_percentage": 94.9239417989418,
+      "valid_days": 7,
+      "outlier_count": 102,
+      "zero_values_count": 629,
+      "overall_quality_score": 97.6
+    }
+  },
+  "activity_analysis": {
+    "activity_classification": "                 timestamp  acceleration  ...  activity_intensity  intensity_code\n1      2015-11-19 10:00:05         144.7  ...            vigorous               3\n2      2015-11-19 10:00:10          12.0  ...               light               1\n3      2015-11-19 10:00:15          34.8  ...               light               1\n4      2015-11-19 10:00:20          45.1  ...            moderate               2\n5      2015-11-19 10:00:25          47.2  ...            moderate               2\n...                    ...           ...  ...                 ...             ...\n120955 2015-11-26 09:59:35          49.4  ...            moderate               2\n120956 2015-11-26 09:59:40          49.4  ...            moderate               2\n120957 2015-11-26 09:59:45          49.4  ...            moderate               2\n120958 2015-11-26 09:59:50          49.4  ...            moderate               2\n120959 2015-11-26 09:59:55          49.4  ...            moderate               2\n\n[114820 rows x 7 columns]",
+    "activity_bouts": {
+      "moderate_bouts": [
+        {
+          "start_time": "2015-11-26 08:07:20",
+          "end_time": "2015-11-26 08:22:00",
+          "duration_minutes": 14.75,
+          "mean_acceleration": 60.81073446327684,
+          "max_acceleration": 146.3,
+          "sample_count": 177
+        },
+        {
+          "start_time": "2015-11-26 08:40:00",
+          "end_time": "2015-11-26 08:50:00",
+          "duration_minutes": 10.083333333333334,
+          "mean_acceleration": 58.095867768595035,
+          "max_acceleration": 83.3,
+          "sample_count": 121
+        },
+        {
+          "start_time": "2015-11-26 08:53:00",
+          "end_time": "2015-11-26 09:11:00",
+          "duration_minutes": 18.083333333333332,
+          "mean_acceleration": 56.96774193548387,
+          "max_acceleration": 112.4,
+          "sample_count": 217
+        },
+        {
+          "start_time": "2015-11-26 09:12:00",
+          "end_time": "2015-11-26 09:37:00",
+          "duration_minutes": 25.083333333333332,
+          "mean_acceleration": 62.439867109634555,
+          "max_acceleration": 82.4,
+          "sample_count": 301
+        },
+        {
+          "start_time": "2015-11-26 09:38:00",
+          "end_time": "2015-11-26 09:57:00",
+          "duration_minutes": 19.083333333333332,
+          "mean_acceleration": 58.20043668122271,
+          "max_acceleration": 83.7,
+          "sample_count": 229
+        }
+      ],
+      "vigorous_bouts": [
+        {
+          "start_time": "2015-11-22 11:00:45",
+          "end_time": "2015-11-22 11:14:55",
+          "duration_minutes": 14.25,
+          "mean_acceleration": 189.812865497076,
+          "max_acceleration": 251.4,
+          "sample_count": 171
+        },
+        {
+          "start_time": "2015-11-22 11:24:50",
+          "end_time": "2015-11-22 11:36:20",
+          "duration_minutes": 11.583333333333334,
+          "mean_acceleration": 174.78129496402877,
+          "max_acceleration": 223.3,
+          "sample_count": 139
+        }
+      ],
+      "mvpa_bouts": [
+        {
+          "start_time": "2015-11-22 10:42:15",
+          "end_time": "2015-11-22 10:52:20",
+          "duration_minutes": 10.166666666666666,
+          "mean_acceleration": 180.1844262295082,
+          "max_acceleration": 228.8,
+          "sample_count": 122
+        },
+        {
+          "start_time": "2015-11-22 10:53:15",
+          "end_time": "2015-11-22 11:14:55",
+          "duration_minutes": 21.75,
+          "mean_acceleration": 190.59233716475094,
+          "max_acceleration": 253.0,
+          "sample_count": 261
+        },
+        {
+          "start_time": "2015-11-22 11:24:45",
+          "end_time": "2015-11-22 11:45:35",
+          "duration_minutes": 20.916666666666668,
+          "mean_acceleration": 169.59601593625501,
+          "max_acceleration": 225.0,
+          "sample_count": 251
+        },
+        {
+          "start_time": "2015-11-26 08:07:20",
+          "end_time": "2015-11-26 08:39:00",
+          "duration_minutes": 31.75,
+          "mean_acceleration": 72.71811023622047,
+          "max_acceleration": 146.3,
+          "sample_count": 381
+        },
+        {
+          "start_time": "2015-11-26 08:40:00",
+          "end_time": "2015-11-26 08:50:00",
+          "duration_minutes": 10.083333333333334,
+          "mean_acceleration": 58.095867768595035,
+          "max_acceleration": 83.3,
+          "sample_count": 121
+        },
+        {
+          "start_time": "2015-11-26 08:53:00",
+          "end_time": "2015-11-26 09:37:00",
+          "duration_minutes": 44.083333333333336,
+          "mean_acceleration": 61.23402646502835,
+          "max_acceleration": 112.4,
+          "sample_count": 529
+        },
+        {
+          "start_time": "2015-11-26 09:38:00",
+          "end_time": "2015-11-26 09:57:00",
+          "duration_minutes": 19.083333333333332,
+          "mean_acceleration": 58.20043668122271,
+          "max_acceleration": 83.7,
+          "sample_count": 229
+        }
+      ],
+      "sedentary_bouts": [
+        {
+          "start_time": "2015-11-19 23:09:50",
+          "end_time": "2015-11-19 23:55:35",
+          "duration_minutes": 45.833333333333336,
+          "mean_acceleration": 1.4596100278551531,
+          "max_acceleration": 28.7,
+          "sample_count": 550
+        },
+        {
+          "start_time": "2015-11-20 00:21:30",
+          "end_time": "2015-11-20 01:09:50",
+          "duration_minutes": 48.416666666666664,
+          "mean_acceleration": 0.9972144846796658,
+          "max_acceleration": 33.1,
+          "sample_count": 581
+        },
+        {
+          "start_time": "2015-11-20 01:28:50",
+          "end_time": "2015-11-20 01:58:50",
+          "duration_minutes": 30.083333333333332,
+          "mean_acceleration": 1.2172222222222224,
+          "max_acceleration": 32.5,
+          "sample_count": 361
+        },
+        {
+          "start_time": "2015-11-20 02:12:05",
+          "end_time": "2015-11-20 03:01:40",
+          "duration_minutes": 49.666666666666664,
+          "mean_acceleration": 1.1935933147632312,
+          "max_acceleration": 20.9,
+          "sample_count": 596
+        },
+        {
+          "start_time": "2015-11-20 03:27:25",
+          "end_time": "2015-11-20 04:18:35",
+          "duration_minutes": 51.25,
+          "mean_acceleration": 1.3575117370892018,
+          "max_acceleration": 29.8,
+          "sample_count": 615
+        },
+        {
+          "start_time": "2015-11-20 04:43:15",
+          "end_time": "2015-11-20 05:18:00",
+          "duration_minutes": 34.833333333333336,
+          "mean_acceleration": 1.2044568245125347,
+          "max_acceleration": 44.6,
+          "sample_count": 418
+        },
+        {
+          "start_time": "2015-11-20 23:01:50",
+          "end_time": "2015-11-21 00:00:00",
+          "duration_minutes": 58.25,
+          "mean_acceleration": 2.2601671309192204,
+          "max_acceleration": 36.0,
+          "sample_count": 699
+        },
+        {
+          "start_time": "2015-11-21 00:50:05",
+          "end_time": "2015-11-21 01:26:05",
+          "duration_minutes": 36.083333333333336,
+          "mean_acceleration": 1.2540540540540541,
+          "max_acceleration": 21.9,
+          "sample_count": 433
+        },
+        {
+          "start_time": "2015-11-21 01:36:00",
+          "end_time": "2015-11-21 02:13:45",
+          "duration_minutes": 37.833333333333336,
+          "mean_acceleration": 1.3399999999999999,
+          "max_acceleration": 80.9,
+          "sample_count": 454
+        },
+        {
+          "start_time": "2015-11-21 05:13:00",
+          "end_time": "2015-11-21 05:47:20",
+          "duration_minutes": 34.416666666666664,
+          "mean_acceleration": 1.6933333333333331,
+          "max_acceleration": 134.1,
+          "sample_count": 413
+        },
+        {
+          "start_time": "2015-11-21 06:33:30",
+          "end_time": "2015-11-21 07:04:15",
+          "duration_minutes": 30.833333333333332,
+          "mean_acceleration": 0.3579387186629526,
+          "max_acceleration": 18.2,
+          "sample_count": 370
+        },
+        {
+          "start_time": "2015-11-22 00:10:30",
+          "end_time": "2015-11-22 00:50:50",
+          "duration_minutes": 40.416666666666664,
+          "mean_acceleration": 0.8171102661596957,
+          "max_acceleration": 41.2,
+          "sample_count": 485
+        },
+        {
+          "start_time": "2015-11-22 01:48:25",
+          "end_time": "2015-11-22 02:24:05",
+          "duration_minutes": 35.75,
+          "mean_acceleration": 0.6125,
+          "max_acceleration": 56.9,
+          "sample_count": 429
+        },
+        {
+          "start_time": "2015-11-22 04:41:10",
+          "end_time": "2015-11-22 05:22:55",
+          "duration_minutes": 41.833333333333336,
+          "mean_acceleration": 0.218562874251497,
+          "max_acceleration": 20.5,
+          "sample_count": 502
+        },
+        {
+          "start_time": "2015-11-22 06:05:15",
+          "end_time": "2015-11-22 06:55:55",
+          "duration_minutes": 50.75,
+          "mean_acceleration": 0.9212574850299399,
+          "max_acceleration": 10.9,
+          "sample_count": 609
+        },
+        {
+          "start_time": "2015-11-22 07:19:20",
+          "end_time": "2015-11-22 07:50:00",
+          "duration_minutes": 30.75,
+          "mean_acceleration": 3.3439393939393938,
+          "max_acceleration": 43.4,
+          "sample_count": 369
+        },
+        {
+          "start_time": "2015-11-22 23:01:15",
+          "end_time": "2015-11-22 23:38:45",
+          "duration_minutes": 37.583333333333336,
+          "mean_acceleration": 1.988300835654596,
+          "max_acceleration": 23.2,
+          "sample_count": 451
+        },
+        {
+          "start_time": "2015-11-22 23:38:55",
+          "end_time": "2015-11-23 00:15:30",
+          "duration_minutes": 36.666666666666664,
+          "mean_acceleration": 2.1020565552699226,
+          "max_acceleration": 35.9,
+          "sample_count": 440
+        },
+        {
+          "start_time": "2015-11-23 00:25:25",
+          "end_time": "2015-11-23 01:20:25",
+          "duration_minutes": 55.083333333333336,
+          "mean_acceleration": 1.3632911392405065,
+          "max_acceleration": 8.0,
+          "sample_count": 661
+        },
+        {
+          "start_time": "2015-11-23 01:56:10",
+          "end_time": "2015-11-23 02:39:35",
+          "duration_minutes": 43.5,
+          "mean_acceleration": 2.1877777777777774,
+          "max_acceleration": 31.8,
+          "sample_count": 522
+        },
+        {
+          "start_time": "2015-11-23 02:58:00",
+          "end_time": "2015-11-23 03:47:15",
+          "duration_minutes": 49.333333333333336,
+          "mean_acceleration": 1.7669444444444444,
+          "max_acceleration": 6.1,
+          "sample_count": 592
+        },
+        {
+          "start_time": "2015-11-23 23:21:15",
+          "end_time": "2015-11-24 00:12:40",
+          "duration_minutes": 51.5,
+          "mean_acceleration": 0.5540389972144847,
+          "max_acceleration": 66.1,
+          "sample_count": 618
+        },
+        {
+          "start_time": "2015-11-24 00:56:30",
+          "end_time": "2015-11-24 01:58:00",
+          "duration_minutes": 61.583333333333336,
+          "mean_acceleration": 1.4915887850467289,
+          "max_acceleration": 28.5,
+          "sample_count": 739
+        },
+        {
+          "start_time": "2015-11-24 02:25:15",
+          "end_time": "2015-11-24 03:20:15",
+          "duration_minutes": 55.083333333333336,
+          "mean_acceleration": 2.075,
+          "max_acceleration": 79.2,
+          "sample_count": 661
+        },
+        {
+          "start_time": "2015-11-24 03:28:50",
+          "end_time": "2015-11-24 04:24:35",
+          "duration_minutes": 55.833333333333336,
+          "mean_acceleration": 1.2597222222222222,
+          "max_acceleration": 39.4,
+          "sample_count": 670
+        },
+        {
+          "start_time": "2015-11-24 05:14:40",
+          "end_time": "2015-11-24 05:47:05",
+          "duration_minutes": 32.5,
+          "mean_acceleration": 2.2800613496932516,
+          "max_acceleration": 18.1,
+          "sample_count": 390
+        },
+        {
+          "start_time": "2015-11-24 23:35:05",
+          "end_time": "2015-11-25 00:09:35",
+          "duration_minutes": 34.583333333333336,
+          "mean_acceleration": 3.3699999999999997,
+          "max_acceleration": 55.4,
+          "sample_count": 415
+        },
+        {
+          "start_time": "2015-11-25 02:21:30",
+          "end_time": "2015-11-25 03:06:25",
+          "duration_minutes": 45.0,
+          "mean_acceleration": 2.503611111111111,
+          "max_acceleration": 22.0,
+          "sample_count": 540
+        },
+        {
+          "start_time": "2015-11-25 03:10:30",
+          "end_time": "2015-11-25 04:08:40",
+          "duration_minutes": 58.25,
+          "mean_acceleration": 1.003342618384401,
+          "max_acceleration": 39.6,
+          "sample_count": 699
+        },
+        {
+          "start_time": "2015-11-25 05:42:40",
+          "end_time": "2015-11-25 06:21:50",
+          "duration_minutes": 39.25,
+          "mean_acceleration": 0.9243697478991595,
+          "max_acceleration": 53.9,
+          "sample_count": 471
+        },
+        {
+          "start_time": "2015-11-25 19:07:45",
+          "end_time": "2015-11-25 19:37:40",
+          "duration_minutes": 30.0,
+          "mean_acceleration": 3.956545961002785,
+          "max_acceleration": 123.5,
+          "sample_count": 360
+        },
+        {
+          "start_time": "2015-11-25 23:00:45",
+          "end_time": "2015-11-25 23:53:00",
+          "duration_minutes": 52.333333333333336,
+          "mean_acceleration": 1.451111111111111,
+          "max_acceleration": 31.8,
+          "sample_count": 628
+        },
+        {
+          "start_time": "2015-11-26 00:08:10",
+          "end_time": "2015-11-26 00:56:00",
+          "duration_minutes": 47.916666666666664,
+          "mean_acceleration": 3.489705882352941,
+          "max_acceleration": 17.5,
+          "sample_count": 575
+        },
+        {
+          "start_time": "2015-11-26 01:21:20",
+          "end_time": "2015-11-26 01:56:50",
+          "duration_minutes": 35.583333333333336,
+          "mean_acceleration": 2.040833333333333,
+          "max_acceleration": 34.0,
+          "sample_count": 427
+        },
+        {
+          "start_time": "2015-11-26 02:43:45",
+          "end_time": "2015-11-26 03:14:35",
+          "duration_minutes": 30.916666666666668,
+          "mean_acceleration": 2.5247222222222225,
+          "max_acceleration": 35.5,
+          "sample_count": 371
+        },
+        {
+          "start_time": "2015-11-26 05:11:45",
+          "end_time": "2015-11-26 05:45:35",
+          "duration_minutes": 33.916666666666664,
+          "mean_acceleration": 0.4477777777777777,
+          "max_acceleration": 35.4,
+          "sample_count": 407
+        }
+      ]
+    },
+    "hourly_patterns": {
+      "hourly_data": {
+        "0": {
+          "sample_count": 4098,
+          "mean_acceleration": 2.873962908735969,
+          "std_acceleration": 8.442826884977976,
+          "max_acceleration": 180.3,
+          "sedentary_percentage": 96.9741337237677,
+          "light_percentage": 2.025378233284529,
+          "moderate_percentage": 0.7808687164470474,
+          "vigorous_percentage": 0.21961932650073207
+        },
+        "1": {
+          "sample_count": 4079,
+          "mean_acceleration": 2.696935523412601,
+          "std_acceleration": 6.712445010730487,
+          "max_acceleration": 198.8,
+          "sedentary_percentage": 92.84138269183624,
+          "light_percentage": 6.5212061779848005,
+          "moderate_percentage": 0.5148320666830105,
+          "vigorous_percentage": 0.12257906349595489
+        },
+        "2": {
+          "sample_count": 4337,
+          "mean_acceleration": 2.8798017062485592,
+          "std_acceleration": 8.883950850255196,
+          "max_acceleration": 187.3,
+          "sedentary_percentage": 92.39105372377219,
+          "light_percentage": 6.755821996771962,
+          "moderate_percentage": 0.6225501498731842,
+          "vigorous_percentage": 0.2305741295826608
+        },
+        "3": {
+          "sample_count": 4126,
+          "mean_acceleration": 3.1149539505574406,
+          "std_acceleration": 9.342219674486511,
+          "max_acceleration": 301.0,
+          "sedentary_percentage": 87.46970431410567,
+          "light_percentage": 11.342704798836646,
+          "moderate_percentage": 1.0421715947649055,
+          "vigorous_percentage": 0.1454192922927775
+        },
+        "4": {
+          "sample_count": 4484,
+          "mean_acceleration": 2.7891614629794828,
+          "std_acceleration": 5.809526917019718,
+          "max_acceleration": 125.1,
+          "sedentary_percentage": 89.47368421052632,
+          "light_percentage": 9.946476360392506,
+          "moderate_percentage": 0.5129348795718109,
+          "vigorous_percentage": 0.06690454950936663
+        },
+        "5": {
+          "sample_count": 4649,
+          "mean_acceleration": 3.0636480963648096,
+          "std_acceleration": 9.24284503163878,
+          "max_acceleration": 246.8,
+          "sedentary_percentage": 92.21337922133792,
+          "light_percentage": 6.625080662508067,
+          "moderate_percentage": 0.9679500967950098,
+          "vigorous_percentage": 0.19359001935900194
+        },
+        "6": {
+          "sample_count": 4615,
+          "mean_acceleration": 34.449642470205845,
+          "std_acceleration": 68.85228812904256,
+          "max_acceleration": 972.9,
+          "sedentary_percentage": 50.76923076923077,
+          "light_percentage": 23.878656554712894,
+          "moderate_percentage": 15.059588299024917,
+          "vigorous_percentage": 10.292524377031418
+        },
+        "7": {
+          "sample_count": 4792,
+          "mean_acceleration": 27.752107679465773,
+          "std_acceleration": 54.01049744266281,
+          "max_acceleration": 881.3,
+          "sedentary_percentage": 50.27128547579299,
+          "light_percentage": 28.756260434056763,
+          "moderate_percentage": 13.480801335559264,
+          "vigorous_percentage": 7.4916527545909855
+        },
+        "8": {
+          "sample_count": 5040,
+          "mean_acceleration": 62.49577380952381,
+          "std_acceleration": 68.72478662666583,
+          "max_acceleration": 820.5,
+          "sedentary_percentage": 14.265873015873016,
+          "light_percentage": 31.03174603174603,
+          "moderate_percentage": 34.30555555555556,
+          "vigorous_percentage": 20.396825396825395
+        },
+        "9": {
+          "sample_count": 5040,
+          "mean_acceleration": 59.69468253968255,
+          "std_acceleration": 69.36632248631408,
+          "max_acceleration": 1554.2,
+          "sedentary_percentage": 13.015873015873018,
+          "light_percentage": 31.845238095238095,
+          "moderate_percentage": 38.095238095238095,
+          "vigorous_percentage": 17.043650793650794
+        },
+        "10": {
+          "sample_count": 5039,
+          "mean_acceleration": 63.656300853343915,
+          "std_acceleration": 91.36610489970043,
+          "max_acceleration": 1934.8,
+          "sedentary_percentage": 15.042667195872198,
+          "light_percentage": 41.436793014487,
+          "moderate_percentage": 21.79003770589403,
+          "vigorous_percentage": 21.730502083746774
+        },
+        "11": {
+          "sample_count": 5040,
+          "mean_acceleration": 108.96085317460316,
+          "std_acceleration": 136.82870252021678,
+          "max_acceleration": 1741.5,
+          "sedentary_percentage": 8.452380952380953,
+          "light_percentage": 24.98015873015873,
+          "moderate_percentage": 25.396825396825395,
+          "vigorous_percentage": 41.17063492063492
+        },
+        "12": {
+          "sample_count": 5040,
+          "mean_acceleration": 108.45178571428572,
+          "std_acceleration": 113.97876024090866,
+          "max_acceleration": 1624.1,
+          "sedentary_percentage": 6.785714285714286,
+          "light_percentage": 18.511904761904763,
+          "moderate_percentage": 32.16269841269842,
+          "vigorous_percentage": 42.53968253968254
+        },
+        "13": {
+          "sample_count": 5040,
+          "mean_acceleration": 66.31650793650793,
+          "std_acceleration": 82.72637539777514,
+          "max_acceleration": 1087.4,
+          "sedentary_percentage": 19.90079365079365,
+          "light_percentage": 29.226190476190478,
+          "moderate_percentage": 27.24206349206349,
+          "vigorous_percentage": 23.63095238095238
+        },
+        "14": {
+          "sample_count": 5040,
+          "mean_acceleration": 77.19027777777778,
+          "std_acceleration": 89.19799993175847,
+          "max_acceleration": 1143.0,
+          "sedentary_percentage": 10.595238095238095,
+          "light_percentage": 31.587301587301585,
+          "moderate_percentage": 29.72222222222222,
+          "vigorous_percentage": 28.095238095238095
+        },
+        "15": {
+          "sample_count": 5040,
+          "mean_acceleration": 76.56736111111111,
+          "std_acceleration": 129.3491950073058,
+          "max_acceleration": 1762.6,
+          "sedentary_percentage": 16.130952380952383,
+          "light_percentage": 32.242063492063494,
+          "moderate_percentage": 26.091269841269842,
+          "vigorous_percentage": 25.535714285714285
+        },
+        "16": {
+          "sample_count": 5040,
+          "mean_acceleration": 59.11763888888889,
+          "std_acceleration": 118.52160228731495,
+          "max_acceleration": 2538.4,
+          "sedentary_percentage": 26.884920634920633,
+          "light_percentage": 34.682539682539684,
+          "moderate_percentage": 20.357142857142858,
+          "vigorous_percentage": 18.075396825396826
+        },
+        "17": {
+          "sample_count": 5040,
+          "mean_acceleration": 49.300912698412695,
+          "std_acceleration": 122.08828189578793,
+          "max_acceleration": 2056.3,
+          "sedentary_percentage": 44.02777777777778,
+          "light_percentage": 27.48015873015873,
+          "moderate_percentage": 14.424603174603174,
+          "vigorous_percentage": 14.067460317460318
+        },
+        "18": {
+          "sample_count": 5040,
+          "mean_acceleration": 50.99472222222222,
+          "std_acceleration": 103.41954126806326,
+          "max_acceleration": 1796.6,
+          "sedentary_percentage": 35.45634920634921,
+          "light_percentage": 31.607142857142854,
+          "moderate_percentage": 16.924603174603174,
+          "vigorous_percentage": 16.01190476190476
+        },
+        "19": {
+          "sample_count": 5039,
+          "mean_acceleration": 29.610319507838856,
+          "std_acceleration": 48.908785042608685,
+          "max_acceleration": 875.8,
+          "sedentary_percentage": 42.389362968843024,
+          "light_percentage": 34.173447112522325,
+          "moderate_percentage": 16.034927564993055,
+          "vigorous_percentage": 7.402262353641595
+        },
+        "20": {
+          "sample_count": 5040,
+          "mean_acceleration": 23.177202380952384,
+          "std_acceleration": 45.02364889945075,
+          "max_acceleration": 576.3,
+          "sedentary_percentage": 51.60714285714286,
+          "light_percentage": 32.06349206349206,
+          "moderate_percentage": 10.257936507936508,
+          "vigorous_percentage": 6.071428571428571
+        },
+        "21": {
+          "sample_count": 5040,
+          "mean_acceleration": 16.819583333333334,
+          "std_acceleration": 36.59881061598381,
+          "max_acceleration": 858.5,
+          "sedentary_percentage": 60.535714285714285,
+          "light_percentage": 26.051587301587304,
+          "moderate_percentage": 10.158730158730158,
+          "vigorous_percentage": 3.2539682539682544
+        },
+        "22": {
+          "sample_count": 5040,
+          "mean_acceleration": 16.250813492063493,
+          "std_acceleration": 37.600739587357886,
+          "max_acceleration": 619.5,
+          "sedentary_percentage": 66.78571428571428,
+          "light_percentage": 20.555555555555554,
+          "moderate_percentage": 8.988095238095237,
+          "vigorous_percentage": 3.670634920634921
+        },
+        "23": {
+          "sample_count": 4042,
+          "mean_acceleration": 11.233621969322119,
+          "std_acceleration": 38.23525104356403,
+          "max_acceleration": 673.4,
+          "sedentary_percentage": 86.24443344878773,
+          "light_percentage": 6.382978723404255,
+          "moderate_percentage": 4.082137555665512,
+          "vigorous_percentage": 3.290450272142504
+        }
+      },
+      "peak_activity_hour": 11,
+      "lowest_activity_hour": 1,
+      "peak_activity_value": 108.96085317460316,
+      "lowest_activity_value": 2.696935523412601
+    },
+    "weekly_patterns": {
+      "Monday": {
+        "sample_count": 16482,
+        "mean_acceleration": 44.26857177527,
+        "total_mvpa_minutes": 421.3333333333333
+      },
+      "Tuesday": {
+        "sample_count": 16213,
+        "mean_acceleration": 38.206938876210444,
+        "total_mvpa_minutes": 381.5833333333333
+      },
+      "Wednesday": {
+        "sample_count": 16159,
+        "mean_acceleration": 44.31778575406894,
+        "total_mvpa_minutes": 392.75
+      },
+      "Thursday": {
+        "sample_count": 16680,
+        "mean_acceleration": 45.94253597122302,
+        "total_mvpa_minutes": 529.9166666666666
+      },
+      "Friday": {
+        "sample_count": 16232,
+        "mean_acceleration": 51.91682479053721,
+        "total_mvpa_minutes": 472.3333333333333
+      },
+      "Saturday": {
+        "sample_count": 16837,
+        "mean_acceleration": 38.702185662528954,
+        "total_mvpa_minutes": 381.8333333333333
+      },
+      "Sunday": {
+        "sample_count": 16217,
+        "mean_acceleration": 28.614725288277732,
+        "total_mvpa_minutes": 252.41666666666666
+      }
+    },
+    "activity_transitions": {
+      "total_transitions": 28316,
+      "transition_matrix": {
+        "vigorous_to_light": 934,
+        "light_to_moderate": 4201,
+        "moderate_to_vigorous": 4061,
+        "vigorous_to_moderate": 4169,
+        "moderate_to_light": 4386,
+        "moderate_to_sedentary": 433,
+        "sedentary_to_light": 4184,
+        "light_to_sedentary": 4288,
+        "sedentary_to_moderate": 511,
+        "light_to_vigorous": 1015,
+        "sedentary_to_vigorous": 80,
+        "vigorous_to_sedentary": 54
+      },
+      "sedentary_breaks": 4775,
+      "activity_resumptions": 4775,
+      "transitions_per_hour": 177.56070371015502,
+      "sedentary_breaks_per_hour": 29.942518724960806
+    },
+    "summary_metrics": {
+      "sedentary_percentage": 46.75143703187598,
+      "sedentary_minutes": 4473.333333333333,
+      "light_percentage": 23.649190036578993,
+      "light_minutes": 2262.8333333333335,
+      "moderate_percentage": 16.04859780526041,
+      "moderate_minutes": 1535.5833333333333,
+      "vigorous_percentage": 13.55077512628462,
+      "vigorous_minutes": 1296.5833333333333,
+      "mvpa_percentage": 29.599372931545027,
+      "mvpa_minutes": 2832.1666666666665,
+      "mvpa_bout_count": 7,
+      "total_mvpa_bout_minutes": 157.83333333333334,
+      "average_mvpa_bout_duration": 22.547619047619047,
+      "sedentary_bout_count": 36,
+      "total_sedentary_bout_minutes": 1543.4166666666667,
+      "average_sedentary_bout_duration": 42.87268518518519,
+      "meets_who_mvpa_guidelines": true,
+      "meets_who_bout_guidelines": true
+    }
+  },
+  "sleep_analysis": {
+    "rest_periods": [
+      {
+        "start_time": "2015-11-19 23:09:10",
+        "end_time": "2015-11-20 02:11:35",
+        "start_index": 9470,
+        "end_index": 11659,
+        "duration_minutes": 182.5,
+        "mean_acceleration": 2.4594063926940635,
+        "min_acceleration": 0.1,
+        "max_acceleration": 173.4
+      },
+      {
+        "start_time": "2015-11-20 02:15:35",
+        "end_time": "2015-11-20 04:35:25",
+        "start_index": 11707,
+        "end_index": 13385,
+        "duration_minutes": 139.91666666666666,
+        "mean_acceleration": 1.7645026801667658,
+        "min_acceleration": 0.0,
+        "max_acceleration": 79.2
+      },
+      {
+        "start_time": "2015-11-20 04:40:40",
+        "end_time": "2015-11-20 06:22:20",
+        "start_index": 13448,
+        "end_index": 14668,
+        "duration_minutes": 101.75,
+        "mean_acceleration": 3.1244062244062243,
+        "min_acceleration": 0.4,
+        "max_acceleration": 125.8
+      },
+      {
+        "start_time": "2015-11-20 23:06:10",
+        "end_time": "2015-11-21 00:32:05",
+        "start_index": 26714,
+        "end_index": 27745,
+        "duration_minutes": 86.0,
+        "mean_acceleration": 3.020736434108527,
+        "min_acceleration": 0.0,
+        "max_acceleration": 180.3
+      },
+      {
+        "start_time": "2015-11-21 01:40:20",
+        "end_time": "2015-11-21 03:48:25",
+        "start_index": 28564,
+        "end_index": 30101,
+        "duration_minutes": 128.16666666666666,
+        "mean_acceleration": 2.830559167750325,
+        "min_acceleration": 0.0,
+        "max_acceleration": 301.0
+      },
+      {
+        "start_time": "2015-11-21 03:54:05",
+        "end_time": "2015-11-21 05:55:25",
+        "start_index": 30169,
+        "end_index": 31625,
+        "duration_minutes": 121.41666666666667,
+        "mean_acceleration": 2.0873713109128347,
+        "min_acceleration": 0.0,
+        "max_acceleration": 134.1
+      },
+      {
+        "start_time": "2015-11-21 06:37:45",
+        "end_time": "2015-11-21 07:55:05",
+        "start_index": 32133,
+        "end_index": 33061,
+        "duration_minutes": 77.41666666666667,
+        "mean_acceleration": 2.6220667384284178,
+        "min_acceleration": 0.0,
+        "max_acceleration": 287.8
+      },
+      {
+        "start_time": "2015-11-21 23:53:00",
+        "end_time": "2015-11-22 06:00:25",
+        "start_index": 44556,
+        "end_index": 48965,
+        "duration_minutes": 367.5,
+        "mean_acceleration": 2.0477324263038548,
+        "min_acceleration": 0.0,
+        "max_acceleration": 198.6
+      },
+      {
+        "start_time": "2015-11-22 22:44:55",
+        "end_time": "2015-11-23 02:57:15",
+        "start_index": 61019,
+        "end_index": 64047,
+        "duration_minutes": 252.41666666666666,
+        "mean_acceleration": 2.694288544073952,
+        "min_acceleration": 0.0,
+        "max_acceleration": 178.6
+      },
+      {
+        "start_time": "2015-11-23 03:02:00",
+        "end_time": "2015-11-23 05:14:10",
+        "start_index": 64104,
+        "end_index": 65690,
+        "duration_minutes": 132.25,
+        "mean_acceleration": 2.5716446124763706,
+        "min_acceleration": 0.3,
+        "max_acceleration": 175.5
+      },
+      {
+        "start_time": "2015-11-23 05:19:05",
+        "end_time": "2015-11-23 06:22:15",
+        "start_index": 65749,
+        "end_index": 66507,
+        "duration_minutes": 63.25,
+        "mean_acceleration": 3.921080368906456,
+        "min_acceleration": 0.0,
+        "max_acceleration": 182.4
+      },
+      {
+        "start_time": "2015-11-23 23:18:45",
+        "end_time": "2015-11-24 03:27:05",
+        "start_index": 78705,
+        "end_index": 81685,
+        "duration_minutes": 248.41666666666666,
+        "mean_acceleration": 1.8772224085877223,
+        "min_acceleration": 0.0,
+        "max_acceleration": 116.1
+      },
+      {
+        "start_time": "2015-11-24 03:32:50",
+        "end_time": "2015-11-24 06:21:40",
+        "start_index": 81754,
+        "end_index": 83780,
+        "duration_minutes": 168.91666666666666,
+        "mean_acceleration": 3.055106068080908,
+        "min_acceleration": 0.0,
+        "max_acceleration": 159.7
+      },
+      {
+        "start_time": "2015-11-24 23:09:55",
+        "end_time": "2015-11-25 05:40:45",
+        "start_index": 95879,
+        "end_index": 100569,
+        "duration_minutes": 390.9166666666667,
+        "mean_acceleration": 2.862502664677041,
+        "min_acceleration": 0.1,
+        "max_acceleration": 148.3
+      },
+      {
+        "start_time": "2015-11-25 22:46:25",
+        "end_time": "2015-11-26 05:48:35",
+        "start_index": 112877,
+        "end_index": 117943,
+        "duration_minutes": 422.25,
+        "mean_acceleration": 2.883658969804618,
+        "min_acceleration": 0.0,
+        "max_acceleration": 115.1
+      }
+    ],
+    "sleep_periods": [
+      {
+        "start_time": "2015-11-19 23:09:10",
+        "end_time": "2015-11-20 02:11:35",
+        "start_index": 9470,
+        "end_index": 11659,
+        "duration_minutes": 182.5,
+        "mean_acceleration": 2.4594063926940635,
+        "min_acceleration": 0.1,
+        "max_acceleration": 173.4,
+        "sleep_type": "main_sleep"
+      },
+      {
+        "start_time": "2015-11-21 23:53:00",
+        "end_time": "2015-11-22 06:00:25",
+        "start_index": 44556,
+        "end_index": 48965,
+        "duration_minutes": 367.5,
+        "mean_acceleration": 2.0477324263038548,
+        "min_acceleration": 0.0,
+        "max_acceleration": 198.6,
+        "sleep_type": "main_sleep"
+      },
+      {
+        "start_time": "2015-11-22 22:44:55",
+        "end_time": "2015-11-23 02:57:15",
+        "start_index": 61019,
+        "end_index": 64047,
+        "duration_minutes": 252.41666666666666,
+        "mean_acceleration": 2.694288544073952,
+        "min_acceleration": 0.0,
+        "max_acceleration": 178.6,
+        "sleep_type": "main_sleep"
+      },
+      {
+        "start_time": "2015-11-23 23:18:45",
+        "end_time": "2015-11-24 03:27:05",
+        "start_index": 78705,
+        "end_index": 81685,
+        "duration_minutes": 248.41666666666666,
+        "mean_acceleration": 1.8772224085877223,
+        "min_acceleration": 0.0,
+        "max_acceleration": 116.1,
+        "sleep_type": "main_sleep"
+      },
+      {
+        "start_time": "2015-11-24 23:09:55",
+        "end_time": "2015-11-25 05:40:45",
+        "start_index": 95879,
+        "end_index": 100569,
+        "duration_minutes": 390.9166666666667,
+        "mean_acceleration": 2.862502664677041,
+        "min_acceleration": 0.1,
+        "max_acceleration": 148.3,
+        "sleep_type": "main_sleep"
+      },
+      {
+        "start_time": "2015-11-25 22:46:25",
+        "end_time": "2015-11-26 05:48:35",
+        "start_index": 112877,
+        "end_index": 117943,
+        "duration_minutes": 422.25,
+        "mean_acceleration": 2.883658969804618,
+        "min_acceleration": 0.0,
+        "max_acceleration": 115.1,
+        "sleep_type": "main_sleep"
+      }
+    ],
+    "sleep_characteristics": [
+      {
+        "sleep_period_id": 0,
+        "start_time": "2015-11-19 23:09:10",
+        "end_time": "2015-11-20 02:11:35",
+        "sleep_type": "main_sleep",
+        "total_duration_minutes": 182.5,
+        "estimated_sleep_duration_minutes": 179.75,
+        "sleep_efficiency_percentage": 98.4931506849315,
+        "awakening_count": 0,
+        "awakening_details": [],
+        "movement_during_sleep": {
+          "mean_acceleration": 2.4594063926940635,
+          "std_acceleration": 9.360844970418768,
+          "movement_variability": 3.806139968663245
+        },
+        "sleep_quality_score": 88.4931506849315
+      },
+      {
+        "sleep_period_id": 1,
+        "start_time": "2015-11-21 23:53:00",
+        "end_time": "2015-11-22 06:00:25",
+        "sleep_type": "main_sleep",
+        "total_duration_minutes": 367.5,
+        "estimated_sleep_duration_minutes": 363.3333333333333,
+        "sleep_efficiency_percentage": 98.86621315192743,
+        "awakening_count": 0,
+        "awakening_details": [],
+        "movement_during_sleep": {
+          "mean_acceleration": 2.0477324263038548,
+          "std_acceleration": 7.102100263476724,
+          "movement_variability": 3.468275528700776
+        },
+        "sleep_quality_score": 88.86621315192743
+      },
+      {
+        "sleep_period_id": 2,
+        "start_time": "2015-11-22 22:44:55",
+        "end_time": "2015-11-23 02:57:15",
+        "sleep_type": "main_sleep",
+        "total_duration_minutes": 252.41666666666666,
+        "estimated_sleep_duration_minutes": 250.58333333333334,
+        "sleep_efficiency_percentage": 99.27368768570486,
+        "awakening_count": 0,
+        "awakening_details": [],
+        "movement_during_sleep": {
+          "mean_acceleration": 2.694288544073952,
+          "std_acceleration": 5.990509093949667,
+          "movement_variability": 2.223410371960978
+        },
+        "sleep_quality_score": 89.27368768570486
+      },
+      {
+        "sleep_period_id": 3,
+        "start_time": "2015-11-23 23:18:45",
+        "end_time": "2015-11-24 03:27:05",
+        "sleep_type": "main_sleep",
+        "total_duration_minutes": 248.41666666666666,
+        "estimated_sleep_duration_minutes": 246.25,
+        "sleep_efficiency_percentage": 99.12780945991278,
+        "awakening_count": 0,
+        "awakening_details": [],
+        "movement_during_sleep": {
+          "mean_acceleration": 1.8772224085877223,
+          "std_acceleration": 5.227592109400139,
+          "movement_variability": 2.7847484056686587
+        },
+        "sleep_quality_score": 89.12780945991278
+      },
+      {
+        "sleep_period_id": 4,
+        "start_time": "2015-11-24 23:09:55",
+        "end_time": "2015-11-25 05:40:45",
+        "sleep_type": "main_sleep",
+        "total_duration_minutes": 390.9166666666667,
+        "estimated_sleep_duration_minutes": 387.4166666666667,
+        "sleep_efficiency_percentage": 99.10466851417608,
+        "awakening_count": 0,
+        "awakening_details": [],
+        "movement_during_sleep": {
+          "mean_acceleration": 2.862502664677041,
+          "std_acceleration": 5.608236294268374,
+          "movement_variability": 1.9592073619610473
+        },
+        "sleep_quality_score": 89.10466851417608
+      },
+      {
+        "sleep_period_id": 5,
+        "start_time": "2015-11-25 22:46:25",
+        "end_time": "2015-11-26 05:48:35",
+        "sleep_type": "main_sleep",
+        "total_duration_minutes": 422.25,
+        "estimated_sleep_duration_minutes": 418.1666666666667,
+        "sleep_efficiency_percentage": 99.03295835800276,
+        "awakening_count": 0,
+        "awakening_details": [],
+        "movement_during_sleep": {
+          "mean_acceleration": 2.883658969804618,
+          "std_acceleration": 4.966276858524028,
+          "movement_variability": 1.722213656513106
+        },
+        "sleep_quality_score": 89.03295835800276
+      }
+    ],
+    "sleep_summary": {
+      "total_sleep_periods": 6,
+      "main_sleep_periods": 6,
+      "nap_periods": 0,
+      "total_sleep_time_hours": 30.758333333333333,
+      "main_sleep_time_hours": 30.758333333333333,
+      "nap_time_hours": 0.0,
+      "average_sleep_duration_hours": 5.126388888888888,
+      "average_sleep_efficiency": 98.98308130910924,
+      "average_awakening_count": 0.0,
+      "average_sleep_quality_score": 88.98308130910924
+    },
+    "sleep_regularity": {
+      "sleep_onset_variability_hours": 0.38290031904007027,
+      "wake_time_variability_hours": 1.5287597854082509,
+      "average_sleep_onset_hour": 23.163888888888888,
+      "average_wake_time_hour": 4.341666666666667,
+      "sleep_regularity_index": 105.29201458676118
+    }
+  },
+  "key_findings": [
+    "Excellent data quality detected",
+    "Very high activity levels detected",
+    "Meets WHO physical activity guidelines",
+    "Short sleep duration detected",
+    "Excellent sleep efficiency detected",
+    "Highly regular sleep pattern"
+  ]
+}

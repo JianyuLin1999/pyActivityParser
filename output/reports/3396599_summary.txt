@@ -1,0 +1,77 @@
+================================================================================
+PyGGIR Accelerometer Data Analysis Report
+Participant ID: 3396599
+Generated: 2025-07-12 16:32:21
+================================================================================
+
+DATA OVERVIEW
+----------------------------------------
+Recording period: 2015-11-19 10:00:00 to 2015-11-26 09:59:55
+Sample rate: 5 seconds
+Total samples: 120,960
+Data completeness: 100.0%
+Imputed samples: 2,303
+
+QUALITY ASSESSMENT
+----------------------------------------
+Overall quality score: 93.6/100 (Grade: A)
+Data usable for analysis: Yes
+
+Quality Scores:
+  Data completeness: 100.0/100
+  Wear compliance: 97.5/100
+  Data integrity: 78.1/100
+  Activity patterns: 100.0/100
+
+Recommendations:
+  • High outlier rate (10.0%). Consider data cleaning or investigate device issues.
+
+WEAR TIME ANALYSIS
+----------------------------------------
+Total wear time: 159.5 hours
+Wear compliance: 94.9%
+Non-wear periods: 43
+
+ACTIVITY ANALYSIS
+----------------------------------------
+Sedentary time: 46.8%
+Light activity: 23.6%
+Moderate activity: 16.1%
+Vigorous activity: 13.5%
+MVPA minutes: 2832.2
+Estimated daily steps: 2987
+
+ACTIVITY BOUTS
+----------------------------------------
+MVPA bouts: 7
+Total MVPA bout time: 157.8 minutes
+Average MVPA bout duration: 22.5 minutes
+Meets WHO MVPA guidelines: Yes
+
+SLEEP ANALYSIS
+----------------------------------------
+Total sleep periods: 6
+Main sleep periods: 6
+Total sleep time: 30.8 hours
+Average sleep duration: 5.1 hours
+Average sleep efficiency: 99.0%
+Average sleep quality: 89.0/100
+
+SLEEP REGULARITY
+----------------------------------------
+Sleep onset variability: 0.4 hours
+Wake time variability: 1.5 hours
+Sleep regularity index: 105.3/100
+
+KEY FINDINGS
+----------------------------------------
+• Excellent data quality detected
+• Very high activity levels detected
+• Meets WHO physical activity guidelines
+• Short sleep duration detected
+• Excellent sleep efficiency detected
+• Highly regular sleep pattern
+
+================================================================================
+End of Report
+================================================================================

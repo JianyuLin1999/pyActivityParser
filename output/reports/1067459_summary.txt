@@ -1,0 +1,77 @@
+================================================================================
+PyGGIR Accelerometer Data Analysis Report
+Participant ID: 1067459
+Generated: 2025-07-12 16:32:20
+================================================================================
+
+DATA OVERVIEW
+----------------------------------------
+Recording period: 2015-08-06 10:00:00 to 2015-08-13 09:59:55
+Sample rate: 5 seconds
+Total samples: 120,960
+Data completeness: 100.0%
+Imputed samples: 3,734
+
+QUALITY ASSESSMENT
+----------------------------------------
+Overall quality score: 93.4/100 (Grade: A)
+Data usable for analysis: Yes
+
+Quality Scores:
+  Data completeness: 100.0/100
+  Wear compliance: 97.8/100
+  Data integrity: 76.9/100
+  Activity patterns: 100.0/100
+
+Recommendations:
+  • High outlier rate (13.9%). Consider data cleaning or investigate device issues.
+
+WEAR TIME ANALYSIS
+----------------------------------------
+Total wear time: 160.5 hours
+Wear compliance: 95.5%
+Non-wear periods: 40
+
+ACTIVITY ANALYSIS
+----------------------------------------
+Sedentary time: 58.4%
+Light activity: 27.5%
+Moderate activity: 10.6%
+Vigorous activity: 3.5%
+MVPA minutes: 1355.8
+Estimated daily steps: 1271
+
+ACTIVITY BOUTS
+----------------------------------------
+MVPA bouts: 0
+Total MVPA bout time: 0.0 minutes
+Average MVPA bout duration: 0.0 minutes
+Meets WHO MVPA guidelines: Yes
+
+SLEEP ANALYSIS
+----------------------------------------
+Total sleep periods: 7
+Main sleep periods: 7
+Total sleep time: 30.0 hours
+Average sleep duration: 4.3 hours
+Average sleep efficiency: 99.2%
+Average sleep quality: 89.2/100
+
+SLEEP REGULARITY
+----------------------------------------
+Sleep onset variability: 1.4 hours
+Wake time variability: 1.2 hours
+Sleep regularity index: 0.0/100
+
+KEY FINDINGS
+----------------------------------------
+• Excellent data quality detected
+• Meets WHO physical activity guidelines
+• No sustained MVPA bouts detected
+• Short sleep duration detected
+• Excellent sleep efficiency detected
+• Irregular sleep pattern detected
+
+================================================================================
+End of Report
+================================================================================
